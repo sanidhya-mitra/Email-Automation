@@ -1,0 +1,538 @@
+{
+    "expand": "names,schema",
+    "startAt": 0,
+    "maxResults": 100,
+    "total": 1,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "467765",
+            "self": "https://corecard.atlassian.net/rest/api/3/issue/467765",
+            "key": "CCP-149456",
+            "fields": {
+                "parent": {
+                    "id": "319469",
+                    "key": "CCP-97600",
+                    "self": "https://corecard.atlassian.net/rest/api/3/issue/319469",
+                    "fields": {
+                        "summary": "Commercial Card Module",
+                        "status": {
+                            "self": "https://corecard.atlassian.net/rest/api/3/status/10063",
+                            "description": "Analyze the requirement",
+                            "iconUrl": "https://corecard.atlassian.net/images/icons/statuses/generic.png",
+                            "name": "Initial Analysis",
+                            "id": "10063",
+                            "statusCategory": {
+                                "self": "https://corecard.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://corecard.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://corecard.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://corecard.atlassian.net/rest/api/3/issuetype/10022",
+                            "id": "10022",
+                            "description": "Initiative ",
+                            "iconUrl": "https://corecard.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10322?size=medium",
+                            "name": "Initiative ",
+                            "subtask": false,
+                            "avatarId": 10322,
+                            "hierarchyLevel": 2
+                        }
+                    }
+                },
+                "customfield_10071": null,
+                "customfield_10072": "162498",
+                "customfield_10074": null,
+                "customfield_10075": null,
+                "customfield_10196": null,
+                "customfield_10076": null,
+                "customfield_10197": null,
+                "customfield_10077": null,
+                "customfield_10079": null,
+                "resolution": null,
+                "lastViewed": "2024-09-02T11:57:18.156+0530",
+                "customfield_10180": null,
+                "customfield_10181": null,
+                "customfield_10060": null,
+                "customfield_10061": null,
+                "customfield_10182": null,
+                "customfield_10062": null,
+                "customfield_10183": null,
+                "customfield_10184": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10185": null,
+                "customfield_10186": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "customfield_10187": null,
+                "customfield_10067": null,
+                "customfield_10188": null,
+                "customfield_10068": null,
+                "customfield_10069": null,
+                "labels": [],
+                "aggregatetimeoriginalestimate": 1681200,
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa3300d58f26200727e9384",
+                    "accountId": "5fa3300d58f26200727e9384",
+                    "emailAddress": "abhay.asthana@corecard.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png"
+                    },
+                    "displayName": "Abhay Asthana",
+                    "active": true,
+                    "timeZone": "Asia/Kolkata",
+                    "accountType": "atlassian"
+                },
+                "components": [],
+                "customfield_10050": null,
+                "customfield_10052": null,
+                "customfield_10053": null,
+                "customfield_10174": null,
+                "customfield_10055": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/customFieldOption/10029",
+                    "value": "NO",
+                    "id": "10029"
+                },
+                "customfield_10056": null,
+                "customfield_10177": null,
+                "customfield_10058": null,
+                "customfield_10059": null,
+                "customfield_10049": null,
+                "subtasks": [],
+                "customfield_10041": null,
+                "customfield_10042": null,
+                "reporter": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5f0396da5ee2c3002327d410",
+                    "accountId": "5f0396da5ee2c3002327d410",
+                    "emailAddress": "wdjirauser@corecard.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png"
+                    },
+                    "displayName": "WDJiraUser",
+                    "active": true,
+                    "timeZone": "Asia/Kolkata",
+                    "accountType": "atlassian"
+                },
+                "customfield_10043": null,
+                "customfield_10044": null,
+                "customfield_10045": null,
+                "customfield_10048": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 14400,
+                    "percent": 0
+                },
+                "votes": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/issue/CCP-149456/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                },
+                "issuetype": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/issuetype/10000",
+                    "id": "10000",
+                    "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+                    "iconUrl": "https://corecard.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10306?size=medium",
+                    "name": "Epic",
+                    "subtask": false,
+                    "avatarId": 10306,
+                    "hierarchyLevel": 1
+                },
+                "customfield_10270": null,
+                "customfield_10271": null,
+                "customfield_10272": null,
+                "customfield_10273": null,
+                "project": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/project/10030",
+                    "id": "10030",
+                    "key": "CCP",
+                    "name": "Core Credit Processing",
+                    "projectTypeKey": "software",
+                    "simplified": false,
+                    "avatarUrls": {
+                        "48x48": "https://corecard.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421",
+                        "24x24": "https://corecard.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=small",
+                        "16x16": "https://corecard.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=xsmall",
+                        "32x32": "https://corecard.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10421?size=medium"
+                    }
+                },
+                "customfield_10274": null,
+                "customfield_10276": null,
+                "customfield_10277": null,
+                "customfield_10269": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "watches": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/issue/CCP-149456/watchers",
+                    "watchCount": 3,
+                    "isWatching": false
+                },
+                "customfield_10260": null,
+                "customfield_10261": null,
+                "customfield_10140": null,
+                "customfield_10020": [
+                    {
+                        "id": 321,
+                        "name": "Y24.R40.S1",
+                        "state": "future",
+                        "boardId": 120,
+                        "goal": "",
+                        "startDate": "2024-06-16T19:00:00.000Z",
+                        "endDate": "2024-07-24T19:00:00.000Z"
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10263": null,
+                "customfield_10142": null,
+                "customfield_10143": null,
+                "customfield_10022": "2024-03-27T18:55:00.042+0530",
+                "customfield_10144": null,
+                "customfield_10265": null,
+                "customfield_10023": null,
+                "customfield_10145": [],
+                "customfield_10024": null,
+                "customfield_10267": null,
+                "customfield_10147": null,
+                "customfield_10268": null,
+                "customfield_10016": null,
+                "customfield_10137": null,
+                "customfield_10017": "dark_teal",
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": true,
+                    "data": {
+                        "id": 319469,
+                        "key": "CCP-97600",
+                        "keyNum": 97600,
+                        "summary": "Commercial Card Module",
+                        "projectId": 10030,
+                        "issueType": {
+                            "id": "10022",
+                            "iconUrl": "/rest/api/2/universal_avatar/view/type/issuetype/avatar/10322?size=medium"
+                        }
+                    }
+                },
+                "customfield_10019": "0|i242j7:",
+                "updated": "2024-09-01T22:12:01.290+0530",
+                "timeoriginalestimate": 14400,
+                "customfield_10250": null,
+                "description": {
+                    "type": "doc",
+                    "version": 1,
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "CT 162498: New Tile Accounting Information"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "customfield_10130": null,
+                "customfield_10252": null,
+                "customfield_10010": null,
+                "customfield_10131": null,
+                "customfield_10011": "CT 162498: New Tile Accounting Information",
+                "customfield_10132": null,
+                "customfield_10133": null,
+                "customfield_10012": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/customFieldOption/10016",
+                    "value": "To Do",
+                    "id": "10016"
+                },
+                "customfield_10255": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/customFieldOption/10714",
+                    "value": "15.00.40",
+                    "id": "10714"
+                },
+                "customfield_10013": "ghx-label-5",
+                "customfield_10134": null,
+                "customfield_10014": null,
+                "customfield_10135": null,
+                "customfield_10256": null,
+                "customfield_10015": "2024-03-27",
+                "customfield_10136": null,
+                "customfield_10257": null,
+                "customfield_10005": null,
+                "customfield_10126": null,
+                "customfield_10006": null,
+                "customfield_10128": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10129": null,
+                "customfield_10009": null,
+                "summary": "CT 162498: New Tile Accounting Information",
+                "customfield_10120": null,
+                "customfield_10242": null,
+                "customfield_10121": null,
+                "customfield_10122": 40.0,
+                "customfield_10001": {
+                    "id": "7ca9f00f-4a92-4828-8c20-07254bd46175",
+                    "name": "CCP_DotNetTeam",
+                    "avatarUrl": "",
+                    "isVisible": true,
+                    "title": "CCP_DotNetTeam",
+                    "isShared": true
+                },
+                "customfield_10243": null,
+                "customfield_10123": null,
+                "customfield_10002": [],
+                "customfield_10124": null,
+                "customfield_10003": null,
+                "customfield_10125": 72.0,
+                "customfield_10004": null,
+                "customfield_10236": null,
+                "customfield_10115": [
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=62b9ad66268cac6e31c37657",
+                        "accountId": "62b9ad66268cac6e31c37657",
+                        "emailAddress": "rekha.shelar@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/5cc86f3272de88138f85eb689fda6132?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRS-2.png",
+                            "24x24": "https://secure.gravatar.com/avatar/5cc86f3272de88138f85eb689fda6132?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRS-2.png",
+                            "16x16": "https://secure.gravatar.com/avatar/5cc86f3272de88138f85eb689fda6132?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRS-2.png",
+                            "32x32": "https://secure.gravatar.com/avatar/5cc86f3272de88138f85eb689fda6132?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRS-2.png"
+                        },
+                        "displayName": "Rekha Shelar",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    },
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa33042c2e5390077bc15d7",
+                        "accountId": "5fa33042c2e5390077bc15d7",
+                        "emailAddress": "vinay.katoch@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "24x24": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "16x16": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "32x32": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png"
+                        },
+                        "displayName": "Vinay Katoch",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    }
+                ],
+                "customfield_10116": null,
+                "customfield_10237": null,
+                "customfield_10117": null,
+                "customfield_10238": null,
+                "environment": null,
+                "customfield_10118": null,
+                "customfield_10239": null,
+                "customfield_10119": null,
+                "duedate": "2024-08-09",
+                "statuscategorychangedate": "2024-05-03T16:05:47.793+0530",
+                "customfield_10230": null,
+                "customfield_10110": null,
+                "fixVersions": [
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/version/10917",
+                        "id": "10917",
+                        "description": "",
+                        "name": "R40",
+                        "archived": false,
+                        "released": false,
+                        "releaseDate": "2024-10-07"
+                    }
+                ],
+                "customfield_10231": null,
+                "customfield_10111": null,
+                "customfield_10232": null,
+                "customfield_10112": [
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa32d5db45b2e007487896f",
+                        "accountId": "5fa32d5db45b2e007487896f",
+                        "emailAddress": "rsingh@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/32"
+                        },
+                        "displayName": "Rajendra Singh",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    }
+                ],
+                "customfield_10233": null,
+                "customfield_10234": null,
+                "customfield_10113": [
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa32d5db45b2e007487896f",
+                        "accountId": "5fa32d5db45b2e007487896f",
+                        "emailAddress": "rsingh@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/48",
+                            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/24",
+                            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/16",
+                            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5fa32d5db45b2e007487896f/542fbb69-fb97-400b-adbf-8f3c517590b1/32"
+                        },
+                        "displayName": "Rajendra Singh",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    }
+                ],
+                "customfield_10235": null,
+                "customfield_10114": [
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa3300d58f26200727e9384",
+                        "accountId": "5fa3300d58f26200727e9384",
+                        "emailAddress": "abhay.asthana@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                            "24x24": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                            "16x16": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+                            "32x32": "https://secure.gravatar.com/avatar/cb8a3770e1d1cb5aa54fc05ea449ce25?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png"
+                        },
+                        "displayName": "Abhay Asthana",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    },
+                    {
+                        "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5fa33042c2e5390077bc15d7",
+                        "accountId": "5fa33042c2e5390077bc15d7",
+                        "emailAddress": "vinay.katoch@corecard.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "24x24": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "16x16": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png",
+                            "32x32": "https://secure.gravatar.com/avatar/d88fba43766146e87e6aca791dd811b8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVK-4.png"
+                        },
+                        "displayName": "Vinay Katoch",
+                        "active": true,
+                        "timeZone": "Asia/Kolkata",
+                        "accountType": "atlassian"
+                    }
+                ],
+                "customfield_10104": null,
+                "customfield_10225": null,
+                "customfield_10226": null,
+                "customfield_10105": null,
+                "customfield_10106": null,
+                "customfield_10107": null,
+                "customfield_10229": null,
+                "customfield_10108": null,
+                "customfield_10109": null,
+                "customfield_10220": null,
+                "customfield_10221": null,
+                "priority": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://corecard.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10100": null,
+                "customfield_10101": null,
+                "customfield_10222": null,
+                "customfield_10102": null,
+                "customfield_10103": null,
+                "customfield_10224": null,
+                "customfield_10214": null,
+                "customfield_10215": null,
+                "customfield_10216": null,
+                "customfield_10217": null,
+                "customfield_10218": null,
+                "timeestimate": 14400,
+                "versions": [],
+                "customfield_10219": null,
+                "status": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/status/10152",
+                    "description": "",
+                    "iconUrl": "https://corecard.atlassian.net/images/icons/statuses/generic.png",
+                    "name": "In Development",
+                    "id": "10152",
+                    "statusCategory": {
+                        "self": "https://corecard.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "customfield_10211": null,
+                "customfield_10203": null,
+                "customfield_10204": null,
+                "customfield_10205": null,
+                "customfield_10206": null,
+                "customfield_10207": null,
+                "aggregatetimeestimate": 1641600,
+                "customfield_10208": null,
+                "customfield_10209": null,
+                "creator": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/user?accountId=5f0396da5ee2c3002327d410",
+                    "accountId": "5f0396da5ee2c3002327d410",
+                    "emailAddress": "wdjirauser@corecard.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/86d474fd511d72537817c1d73a312418?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FW-1.png"
+                    },
+                    "displayName": "WDJiraUser",
+                    "active": true,
+                    "timeZone": "Asia/Kolkata",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 77400,
+                    "total": 1719000,
+                    "percent": 4
+                },
+                "customfield_10200": null,
+                "customfield_10201": null,
+                "timespent": null,
+                "aggregatetimespent": 77400,
+                "workratio": 0,
+                "created": "2024-03-27T18:53:27.082+0530",
+                "customfield_10090": null,
+                "customfield_10091": null,
+                "customfield_10092": null,
+                "customfield_10093": null,
+                "customfield_10094": null,
+                "customfield_10095": null,
+                "customfield_10096": null,
+                "customfield_10097": null,
+                "customfield_10099": null,
+                "security": null,
+                "customfield_10080": null,
+                "customfield_10082": null,
+                "customfield_10083": null,
+                "customfield_10084": null,
+                "customfield_10085": {
+                    "self": "https://corecard.atlassian.net/rest/api/3/customFieldOption/10079",
+                    "value": "No",
+                    "id": "10079"
+                },
+                "customfield_10086": null,
+                "customfield_10087": null,
+                "customfield_10088": [],
+                "customfield_10089": null
+            }
+        }
+    ]
+}
